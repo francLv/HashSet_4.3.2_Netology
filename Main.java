@@ -29,7 +29,8 @@ public class Main {
                 Student student = new Student(name, group, studentId);
                 studentMap.add(student);
             }
-        }
+        } 
+      scanner.close();
     }
 
     static void printMap() {

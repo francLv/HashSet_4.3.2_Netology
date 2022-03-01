@@ -14,18 +14,6 @@ public class Student {
         this.studentId = studentId;
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public String getGroup() {
-        return group;
-    }
-
-    public String getStudentId() {
-        return studentId;
-    }
-
     @Override
     public String toString() {
         return "  - " + name +
